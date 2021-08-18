@@ -1,0 +1,74 @@
+2021-08-17T22:31:45.407Z [my-bank-api] info: API SUBIU
+2021-08-18T15:34:45.083Z [my-bank-api] info: API SUBIU
+2021-08-18T15:36:46.932Z [my-bank-api] info: API SUBIU
+2021-08-18T15:37:57.404Z [my-bank-api] info: API SUBIU
+2021-08-18T15:37:59.616Z [my-bank-api] info: API SUBIU
+2021-08-18T15:43:06.878Z [my-bank-api] info: API SUBIU
+2021-08-18T15:43:34.261Z [my-bank-api] info: API SUBIU
+2021-08-18T15:44:22.588Z [my-bank-api] info: API SUBIU
+2021-08-18T15:44:25.119Z [my-bank-api] info: API SUBIU
+2021-08-18T15:44:56.522Z [my-bank-api] info: API SUBIU
+2021-08-18T15:45:18.470Z [my-bank-api] info: API SUBIU
+2021-08-18T15:45:44.055Z [my-bank-api] info: API SUBIU
+2021-08-18T15:46:15.434Z [my-bank-api] info: API SUBIU
+2021-08-18T15:46:40.550Z [my-bank-api] info: API SUBIU
+2021-08-18T15:47:07.189Z [my-bank-api] info: API SUBIU
+2021-08-18T15:48:38.907Z [my-bank-api] info: POST /account - {"id":1,"name":"Juniores free","balance":42}
+2021-08-18T15:54:36.592Z [my-bank-api] info: API SUBIU
+2021-08-18T15:55:52.912Z [my-bank-api] info: API SUBIU
+2021-08-18T15:55:57.987Z [my-bank-api] info: API SUBIU
+2021-08-18T15:56:07.568Z [my-bank-api] info: POST /account - {"id":2,"name":"Matheus Yuri","balance":4200}
+2021-08-18T15:56:16.196Z [my-bank-api] info: POST /account - {"id":3,"balance":4200}
+2021-08-18T15:57:15.574Z [my-bank-api] info: API SUBIU
+2021-08-18T15:57:18.540Z [my-bank-api] info: POST /account - {"id":4,"balance":4200}
+2021-08-18T15:57:35.345Z [my-bank-api] info: POST /account - {"id":5,"name":"Matheus Yuri"}
+2021-08-18T15:58:24.375Z [my-bank-api] info: API SUBIU
+2021-08-18T15:58:52.228Z [my-bank-api] info: API SUBIU
+2021-08-18T15:58:55.070Z [my-bank-api] info: POST /account - {"id":6,"name":"Matheus Yuri"}
+2021-08-18T15:59:25.790Z [my-bank-api] info: POST /account - {"id":7,"name":"Matheus Yuri","balance":52145}
+2021-08-18T15:59:32.026Z [my-bank-api] info: POST /account - {"id":8,"name":"Matheus Yuri"}
+2021-08-18T16:01:15.498Z [my-bank-api] info: API SUBIU
+2021-08-18T16:01:32.131Z [my-bank-api] info: API SUBIU
+2021-08-18T16:01:37.002Z [my-bank-api] error: POST /account Name e Balance são obrigatórios
+2021-08-18T16:02:23.444Z [my-bank-api] info: API SUBIU
+2021-08-18T16:07:19.892Z [my-bank-api] info: API SUBIU
+2021-08-18T16:07:29.050Z [my-bank-api] info: API SUBIU
+2021-08-18T16:07:36.583Z [my-bank-api] info: API SUBIU
+2021-08-18T16:07:37.761Z [my-bank-api] info: API SUBIU
+2021-08-18T16:08:21.072Z [my-bank-api] info: API SUBIU
+2021-08-18T16:08:21.980Z [my-bank-api] info: API SUBIU
+2021-08-18T16:09:35.245Z [my-bank-api] info: API SUBIU
+2021-08-18T16:10:16.374Z [my-bank-api] info: API SUBIU
+2021-08-18T16:10:53.030Z [my-bank-api] info: API SUBIU
+2021-08-18T16:11:58.594Z [my-bank-api] error: PUT /account Registro não encontrado
+2021-08-18T16:12:19.712Z [my-bank-api] info: PUT /account - {"id":1}
+2021-08-18T16:12:44.975Z [my-bank-api] info: PUT /account - {"id":1}
+2021-08-18T16:12:50.798Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus Rodrigues Yuri","balance":1256}
+2021-08-18T16:12:58.991Z [my-bank-api] info: PUT /account - {"id":1}
+2021-08-18T16:13:00.031Z [my-bank-api] info: PUT /account - {"id":1}
+2021-08-18T16:13:23.320Z [my-bank-api] info: API SUBIU
+2021-08-18T16:13:27.067Z [my-bank-api] error: POST /account Name e Balance são obrigatórios.
+2021-08-18T16:13:27.937Z [my-bank-api] error: POST /account Name e Balance são obrigatórios.
+2021-08-18T16:13:28.367Z [my-bank-api] error: POST /account Name e Balance são obrigatórios.
+2021-08-18T16:13:28.578Z [my-bank-api] error: POST /account Name e Balance são obrigatórios.
+2021-08-18T16:13:54.126Z [my-bank-api] info: API SUBIU
+2021-08-18T16:14:04.244Z [my-bank-api] error: PUT /account Name e Balance são obrigatórios.
+2021-08-18T16:14:27.143Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus Rodrigues Yuri","balance":1256}
+2021-08-18T16:14:32.795Z [my-bank-api] error: PUT /account Name e Balance são obrigatórios.
+2021-08-18T16:17:04.470Z [my-bank-api] info: API SUBIU
+2021-08-18T16:17:08.437Z [my-bank-api] info: API SUBIU
+2021-08-18T16:17:10.986Z [my-bank-api] info: API SUBIU
+2021-08-18T16:17:36.527Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus  Yuri","balance":1221}
+2021-08-18T16:17:51.896Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus  Yuri","balance":1221,"asas":"oiuasjia"}
+2021-08-18T16:18:09.341Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus  Yuri","balance":1221,"asas":"oiuasjia"}
+2021-08-18T16:18:25.229Z [my-bank-api] info: PUT /account - {"id":1,"name":"Matheus  Yuri","balance":1221}
+2021-08-18T16:19:57.530Z [my-bank-api] info: API SUBIU
+2021-08-18T16:20:52.937Z [my-bank-api] info: API SUBIU
+2021-08-18T16:22:37.584Z [my-bank-api] info: API SUBIU
+2021-08-18T16:32:28.379Z [my-bank-api] info: API SUBIU
+2021-08-18T16:33:20.703Z [my-bank-api] info: API SUBIU
+2021-08-18T16:33:55.342Z [my-bank-api] info: API SUBIU
+2021-08-18T16:35:45.299Z [my-bank-api] info: GET /account
+2021-08-18T16:36:22.029Z [my-bank-api] info: GET /account
+2021-08-18T16:36:33.059Z [my-bank-api] info: GET /account
+2021-08-18T16:37:30.694Z [my-bank-api] info: GET /account
