@@ -4,9 +4,9 @@ import { promises as fs } from "fs";
 const { readFile, writeFile } = fs;
 const router = express.Router();
 
+
 //meotodo post faz a leitura e atualiza o arquivo..."posta as infos passadas para ele"
 router.post("/", async (req, res, next) => {
-
     try {
         let account = req.body; 
          //verificação para o usuário
@@ -16,7 +16,8 @@ router.post("/", async (req, res, next) => {
         //criar um objeto que recebe o acconts.json
         const data = JSON.parse(await readFile(global.fileName));
 
-        account = { id: data.nextId++, 
+        account = { 
+            id: data.nextId++, 
             name: account.name,
             balance: account.balance
         };

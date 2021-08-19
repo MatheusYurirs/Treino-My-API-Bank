@@ -1,15 +1,20 @@
 {
-  "nextId": 9,
+  "nextId": 4,
   "accounts": [
     {
       "id": 1,
-      "name": "Matheus  Yuri",
-      "balance": 1221
+      "name": "Matheus Yuri Rodrigues",
+      "balance": 8001.1
     },
     {
       "id": 2,
       "name": "Matheus Yuri",
-      "balance": 4200
+      "balance": 5000
+    },
+    {
+      "id": 3,
+      "name": "Fabiola Turmina",
+      "balance": 4202
     }
   ]
 }
