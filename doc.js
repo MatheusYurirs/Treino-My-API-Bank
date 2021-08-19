@@ -80,7 +80,7 @@ export const swaggerDocument =
                 },
                 "balance": {
                     "type": "number",
-                    "example": 8001
+                    "example": 800.21
                 }
             }
         }

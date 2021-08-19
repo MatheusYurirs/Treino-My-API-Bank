@@ -1,20 +1,40 @@
 {
-  "nextId": 4,
+  "nextId": 8,
   "accounts": [
     {
       "id": 1,
-      "name": "Matheus Yuri Rodrigues",
-      "balance": 8001.1
+      "name": "Matheus Yuri",
+      "balance": 125
     },
     {
       "id": 2,
       "name": "Matheus Yuri",
-      "balance": 5000
+      "balance": 458.32
     },
     {
       "id": 3,
-      "name": "Fabiola Turmina",
-      "balance": 4202
+      "name": "Matheus Yuri",
+      "balance": 458.32
+    },
+    {
+      "id": 4,
+      "name": "Matheus Yuri",
+      "balance": 458.32
+    },
+    {
+      "id": 5,
+      "name": "Matheus Yuri",
+      "balance": 458.32
+    },
+    {
+      "id": 6,
+      "name": "Matheus Yuri",
+      "balance": 458.32
+    },
+    {
+      "id": 7,
+      "name": "Matheus Yuri",
+      "balance": 8001
     }
   ]
 }

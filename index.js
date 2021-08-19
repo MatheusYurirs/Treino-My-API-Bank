@@ -1,6 +1,6 @@
 import express from "express";
 import winston from "winston";
-import accountsRouter from "./Routes/accounts.js"
+import accountsRouter from "./routes/account.routes.js"
 //readFile e Write file... com promises para não ficar tratando callback no node
 import { promises as fs } from "fs";
 import cors from "cors";
@@ -8,7 +8,6 @@ import swaggerUi from "swagger-ui-express";
 import { swaggerDocument } from "./doc.js";
 
 const { readFile, writeFile } = fs;
-
 
 //deixa o arquivo de forma global
 global.fileName = "accounts.json";
@@ -21,8 +20,8 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
 
 )
 
- //o objeto logger recebe um winston para uso de logs
- global.logger = winston.createLogger({
+//o objeto logger recebe um winston para uso de logs
+global.logger = winston.createLogger({
     level: "silly",
     transports: [
         new (winston.transports.Console)(),
@@ -36,16 +35,13 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
 });
 
 const app = express();
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 app.use(express.static("public"));
-app.use("/doc",swaggerUi.serve, swaggerUi.setup(swaggerDocument))
-
+app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 //usa o router do express exportado da pasta routes/accounts
 app.use("/account", accountsRouter);
-
 app.listen(3000, async () => {
-
     try {
         //usando await precisa de usar uma função async
         await readFile(global.fileName);
