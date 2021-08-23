@@ -340,3 +340,11 @@
 2021-08-19T22:24:37.145Z [my-bank-api] info: POST /account - {"id":7,"name":"Matheus Yuri","balance":8001}
 2021-08-19T22:24:47.556Z [my-bank-api] info: GET /account
 2021-08-19T22:26:21.120Z [my-bank-api] info: API SUBIU
+2021-08-22T17:14:50.661Z [my-bank-api] info: API SUBIU
+2021-08-22T17:23:36.731Z [my-bank-api] info: GET /account
+2021-08-23T15:55:57.471Z [my-bank-api] info: API SUBIU
+2021-08-23T16:22:30.656Z [my-bank-api] info: API SUBIU
+2021-08-23T16:23:29.292Z [my-bank-api] info: API SUBIU
+2021-08-23T17:01:37.628Z [my-bank-api] info: API SUBIU
+2021-08-23T17:06:48.028Z [my-bank-api] info: API SUBIU
+2021-08-23T17:36:32.171Z [my-bank-api] info: API SUBIU
